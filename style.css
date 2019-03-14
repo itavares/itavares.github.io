@@ -1,0 +1,101 @@
+/*Color Scheme
+Are ya yellow?!: #feda6a
+
+Silver Fox: #d4d4dc
+
+Deep Matte Grey: #393f4d
+
+Dark Slate: #1d1e22
+
+*/
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #eee;
+}
+body, html {
+  height: 100%;
+}
+
+#nav {
+    background-color: #d4d4dc;
+}
+
+h1 {
+    font-size: 200px;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid black;
+}
+
+#download {
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 0.4em;
+}
+
+.kumquat-header {
+    width: 40px;
+    height: 40px;
+}
+#links_logo{
+    width: 40px;
+    /*height:px;*/
+}
+
+
+
+
+.parallax { 
+  /* The image used */
+  background-image: url("images/test.png");
+
+  /* Set a specific height */
+  height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax_aboutme{
+    height: 500px;
+    background-color: #d4d4dc;
+    font-size: 36px;
+    opacity: 0.7;
+    z-index: 2;
+
+}
+
+#profile_pic{
+   height: 200px
+}
+
+#ighor_profile{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-top-left-radius: 100px;
+ -webkit-border-top-left-radius: 100px;
+ -moz-border-top-left-radius: 100px;
+ border-bottom-right-radius: 100px;
+ -webkit-border-bottom-right-radius: 100px;
+ -moz-border-bottom-right-radius: 100px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: center;
+}
+
+
+
