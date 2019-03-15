@@ -82,9 +82,9 @@ h1 {
 }
 
 #intro_profile{
-    float: left;
+    margin-top: 115px;
     vertical-align: middle;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 #ighor_profile{
@@ -102,6 +102,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   vertical-align: center;
+  margin-top: 50px;
     
 }
 
