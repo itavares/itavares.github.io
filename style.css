@@ -20,6 +20,7 @@ body, html {
 
 #nav {
     background-color: #d4d4dc;
+    opacity: 0.7;
 }
 
 h1 {
@@ -80,9 +81,15 @@ h1 {
    height: 200px
 }
 
+#intro_profile{
+    float: left;
+    vertical-align: middle;
+    margin-left: auto;
+}
+
 #ighor_profile{
- width: 200px;
- height: 200px;
+ width: 250px;
+ height: 250px;
  background-size: cover;
  display: block;
  border-top-left-radius: 100px;
@@ -95,6 +102,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   vertical-align: center;
+    
 }
 
 
