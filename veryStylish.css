@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+}
+
+#intro_profile{
+    margin-top: 115px;
+    vertical-align: middle;
+    /* margin-left: auto; */
+}
+
+#ighor_profile{
+ width: 250px;
+ height: 250px;
+ background-size: cover;
+ display: block;
+ border-top-left-radius: 100px;
+ -webkit-border-top-left-radius: 100px;
+ -moz-border-top-left-radius: 100px;
+ border-bottom-right-radius: 100px;
+ -webkit-border-bottom-right-radius: 100px;
+ -moz-border-bottom-right-radius: 100px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: center;
+  margin-top: 50px;
+    
+}
+
+
+.table {
+    font-family: monospace;
+    font-size: 18px;
+    white-space: pre;
+    color: #12c8ee;
+}
+
+.table2{
+ont-family: monospace;
+    font-size: 18px;
+    white-space: pre;
+    color: #00ff00;
+}
+.basic_text{
+	color: white;
+
+}
