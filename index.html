@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="veryStylish.css">
 
+  <!-- Terminal Fun -->
+    <script src="terminal.js"></script>
+
+
+
 <!-- FONTNS ARE AWESOME ICONS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -18,6 +23,11 @@
 
 </head>
 <body>
+  <div type="hidden">
+  <form action=""  type="hidden"> 
+    <input id = "hellothere" type="hidden" value="Name...">
+  </form>
+  </div>
 	
 
 	<center>
@@ -25,10 +35,10 @@
             <img src="images/ighor_profile.jpg" alt="ighor" id="ighor_profile">
 		</h2>
 
+    <p> <a href="index.html"> <i class="fab fa-facebook" style="font-size: 50px"></i></a>|| <a href="index.html"><i class="fab fa-github" style="font-size: 50px"></i></a> || <a href="index.html"><i class="fab fa-linkedin" style="font-size: 50px""></i></a></p>
     <center>
-    
-        <pre class="table">
-     
+
+        <pre class="table">    
 |=----------------------------------------------------------------------------=|
 |=-------------------------=[ <font color="white">Ighor Fenili Tavares</font> ]=-------------------------=|
 |=-----------------=[ <font color="white">Washington University in Saint Louis </font> ]=----------------=|
@@ -40,24 +50,30 @@
 |=----------------------------------------------------------------------------=|
 |=-----------------------=[ <font color="#00FF00	"> Member of b34r5hell CTF </font>]------------------------=|
 |=----------------------------------------------------------------------------=|
+
+ <button type="button" onclick="displayTerminal()">Terminal</button>
     </pre>
      <pre class="table2">
-+=======+$Man Ighor_Tavares====================================================+
++=======+$man Ighor_Tavares====================================================+
 +=======+======================================================================+
 |      <font color="red">	                       <--=[About Me]=-->                             </font> |
 |       | ---------------------------------------------------------------------|
-|       | <font color="white">Hello there ! I am Ighor Tavares, an international student from     </font> |
+<div class="hover_img">|       | <font color="white"><a href="#">Hello there <span><img src="images/hellothere.gif" alt="image" height="100" /></span></a> ! I am Ighor Tavares, an international student from    </font> |
 |       | <font color="white">Brazil. I obtained a degree in Natural Science with a minor in      </font> |
-|       | <font color="white">mathematics at York College and I am now in my second year of       </font> |
+|       | <font color="white">mathematics at York College. I am now in my second year             </font> |
 |       | <font color="white">at Washington University working towards my B.S in Computer Science </font> |
-|       | <font color="white">and in my master’s in Cybersecurity engineering.                    </font> |
+|       | <font color="white">and in my master’s in Cybersecurity engineering.                    </font> |</div> 
 +-------+----------------------------------------------------------------------+
 |      <font color="red">	                   <--=[Projects + Experiences ]=-->                  </font> |
 |       | ---------------------------------------------------------------------|
-|       | <font color="white">==><a href="index.html"> E-Hacks</a> (Community Impact Winner)                               </font> |
-|       | <font color="white">==><a href="index.html"> ArchHacks<a> Hack-a-Thon	   		                      </font> |
 |       | <font color="white">==> Student IT Technician (Washington University in Saint Louis)    </font> |
 |       | <font color="white">==> Web Scraping Student Assistant (Python)                         </font> |
+|       | <font color="white">==><a href="https://github.com/itavares/e-hacks-2019-washu"> E-Hacks</a> (Community Impact Winner)                               </font> |
+|       | <font color="white">==><a href="https://github.com/akintundejr4/ArchHacks2017"> ArchHacks<a> Hack-a-Thon	   		                      </font> |
+|       | <font color="white">==> Some School Work:                                               </font> |
+|       | <font color="white">         _-_ <a href="https://github.com/itavares/CSE422S--Operating-Systems-Organizations">CSE 422</a> - Operation Systems Organizations              </font> |
+|       | <font color="white">         _-_ <a href="https://github.com/itavares/CSE330-Rapid-Prototype-Developement-and-Creative-Programming">CSE 330</a> - Rapid Prototype Development                  </font> |
+|       | <font color="white">         _-_ <a href="https://github.com/itavares/Temporal-Link-Prediction-and-Community-Detection">CSE 416</a> - Analysis of Network Data                     </font> |
 +-------+----------------------------------------------------------------------+
 +-------+----------------------------------------------------------------------+
 |      <font color="red">	                        <--=[Sum Skills]=-->                          </font> |
@@ -67,22 +83,101 @@
 |       | <font color="white">-System.out.printl("<font color="yellow">Java</font>");                                         </font> |
 |       | <font color="white">-std::cout << "<font color="yellow">C++</font>" << std::endl;                                   </font> |
 |       | <font color="white">-char name[] = "<font color="yellow">C</font>"; printf("%s",name);"                             </font> |
-
++-------+----------------------------------------------------------------------+
+|      <font color="red">                           <--=[Hobbies]=-->                           </font> |
+|       | ---------------------------------------------------------------------|
+|       | <font color="yellow">                          *** CTF ***                               </font> |
+|       | <font color="white"> I am CTF lover, who is always looking for competitions and         </font> |
+|       | <font color="white"> challenges. I am currently an "administrator" for my school's CTF  </font> |
+|       | <font color="white"> team , b34r5hell, at Washington University. You can find our last  </font> |
+|       | <font color="white"> competition results at the bottom this website (working on it)     </font> |
+|       |                                                                      |
+|       | <font color="yellow">                       *** Videography ***                          </font> |
+|       | <font color="white"> I love making/editing videos. It is a way to express my creativity </font> |
+|       | <font color="white"> and explore diferent perspectives about how we see the world. I    </font> |
+|       | <font color="white"> have a couple projects on my vimeo account.                        </font> |
+|       |                                                                      |
+|       | <font color="yellow">                        *** Readings ***                            </font> |
+|       | <font color="white">Kali Linux Network Scanning Cookbook - Justin Hutchens              </font> |
+|       | <font color="white">Internet Identity - Ted Claypoole and Theresa Payton.               </font> |
 +-------+----------------------------------------------------------------------+
 
 
+<!-- { jung_vf_guvf_jrveq_zrffntr_va_ebg13 } what?!  -->
         </pre>
-
-
-
-
-
 	</center>
 
+<div id="terminal"></div>
+
+<script >
 
 
+//this ensures that the terminal is called only once ( so people won't spam it D= )
+  var displayTerminal = (function() {
+    var executed = false;
+    return function() {
+        if (!executed) {
+            executed = true;
+             var keepMessaging = false;  
+  var terminal = new Terminal();
+      terminal.setHeight("200px");
+      terminal.setWidth('400px');
+      terminal.setBackgroundColor('black');
+      terminal.setTextColor('#00ff00');
+      // document.body.appendChild(terminal.html);
+      document.getElementById("terminal").appendChild(terminal.html); 
+      terminal.blinkingCursor(true);
+      terminal.print('Hello, there!')
+        //welcome message
+        terminal.input('Whats your name?', function (input) {
+        terminal.print('Welcome, ' + input);
+        terminal.sleep(1000, function () {
+          terminal.print(' ');
+          terminal.input('Enter one of the following commands: ', function (input) {
+            // terminal.print('>');
+              if (input == "resume"){
+                alert("taking to resume page");
+                window.location = "resume_page.html";
+              }
+              else{
+                terminal.print("uhhhh idk what you mean D=");
+
+              }
+          })
+        })
+        
+      })
+        }
+    };
+})();
 
 
+  </script>
+
+<script type="text/javascript">
+
+  
+  // console.log(secretHehe);
+
+// function calculatorFunction(){
+//   var num1 = document.getElementById("hellothere").value;
+
+
+//  document.getElementById("hellothere").addEventListener("keyup",calculatorFunction);
+//  console.log(num1);
+
+//  if (num1 == "what_is_this_weird_message_in_rot13"){
+//   console.log("CORRECT");
+//   alert("Hello There");
+//  }
+ 
+// }
+// calculatorFunction();
+
+
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('7 0(){8 1=4.2("3").a;4.2("3").9("h",0);5.6(1);b(1=="e"){5.6("c");d("g f")}}0();',18,18,'calculatorFunction|num1|getElementById|hellothere|document|console|log|function|var|addEventListener|value|if|CORRECT|alert|what_is_this_weird_message_in_rot13|There|Hello|keyup'.split('|'),0,{}))
+
+</script>
 
 <!--BOOTSRAP -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
