@@ -59,7 +59,7 @@
 |      <font color="red">	                       <--=[About Me]=-->                             </font> |
 |       | ---------------------------------------------------------------------|
 <div class="hover_img">|       | <font color="white"><a href="#">Hello there <span><img src="images/hellothere.gif" alt="image" height="100" /></span></a> ! I am Ighor Tavares, an international student from    </font> |
-|       | <font color="white">Brazil. I obtained a degree in Natural Science with a minor in      </font> |
+|       | <font color="white">Brazil. I have obtained a degree in Natural Science with a minor in </font> |
 |       | <font color="white">mathematics at York College. I am now in my second year             </font> |
 |       | <font color="white">at Washington University working towards my B.S in Computer Science </font> |
 |       | <font color="white">and in my master’s in Cybersecurity engineering.                    </font> |</div> 
@@ -74,15 +74,21 @@
 |       | <font color="white">         _-_ <a href="https://github.com/itavares/CSE422S--Operating-Systems-Organizations">CSE 422</a> - Operation Systems Organizations              </font> |
 |       | <font color="white">         _-_ <a href="https://github.com/itavares/CSE330-Rapid-Prototype-Developement-and-Creative-Programming">CSE 330</a> - Rapid Prototype Development                  </font> |
 |       | <font color="white">         _-_ <a href="https://github.com/itavares/Temporal-Link-Prediction-and-Community-Detection">CSE 416</a> - Analysis of Network Data                     </font> |
+|       | <font color="white">==> Summer 2019 - Master's Project                                  </font> |
+|       | <font color="white">         _-_ For this summer, I am working on IoT security and its  </font> |
+|       | <font color="white">         _-_  vulnerabilities. I will explore the dangers and lack  </font> |
+|       | <font color="white">         _-_  of security present in cheap IoT devices that can be  </font> |
+|       | <font color="white">         _-_  purchased for less than $15 and impose a major treat  </font> |
+|       | <font color="white">         _-_  to the user. (Future notes will be posted here)       </font> |
 +-------+----------------------------------------------------------------------+
 +-------+----------------------------------------------------------------------+
-|      <font color="red">	                        <--=[Sum Skills]=-->                          </font> |
+|      <font color="red">	                        <--=[Skills]=-->                              </font> |
 |       | ---------------------------------------------------------------------|
 |       | <font color="white">-print("<font color="yellow">Python</font>")                                                    </font> |
 |       | <font color="white">-<?php>echo "<font color="yellow">HTML, PHP, JS</font>" ;<?>                                             </font> |
 |       | <font color="white">-System.out.printl("<font color="yellow">Java</font>");                                         </font> |
 |       | <font color="white">-std::cout << "<font color="yellow">C++</font>" << std::endl;                                   </font> |
-|       | <font color="white">-char name[] = "<font color="yellow">C</font>"; printf("%s",name);"                             </font> |
+|       | <font color="white">-char name[] = '<font color="yellow">C</font>'; printf("%s",name);                              </font> |
 +-------+----------------------------------------------------------------------+
 |      <font color="red">                           <--=[Hobbies]=-->                           </font> |
 |       | ---------------------------------------------------------------------|
@@ -90,7 +96,13 @@
 |       | <font color="white"> I am CTF lover, who is always looking for competitions and         </font> |
 |       | <font color="white"> challenges. I am currently an "administrator" for my school's CTF  </font> |
 |       | <font color="white"> team , b34r5hell, at Washington University. You can find our last  </font> |
-|       | <font color="white"> competition results at the bottom this website (working on it)     </font> |
+|       | <font color="white"> competition results at the bottom this website (in the workings)   </font> |
+|       |                                                                      |
+|       | <font color="yellow">                        *** Python ***                              </font> |
+|       | <font color="white"> I enjoy making using python to automate my daily life. I love      </font> |
+|       | <font color="white">  learning new libraries and write programs for fun. I have         </font> |
+|       | <font color="white">  recently created a couple facebook bots, and a auto-search        </font> |
+|       | <font color="white">  script that uses voice recogniztion (similar to google home).     </font> |
 |       |                                                                      |
 |       | <font color="yellow">                       *** Videography ***                          </font> |
 |       | <font color="white"> I love making/editing videos. It is a way to express my creativity </font> |
@@ -127,20 +139,48 @@
       // document.body.appendChild(terminal.html);
       document.getElementById("terminal").appendChild(terminal.html); 
       terminal.blinkingCursor(true);
-      terminal.print('Hello, there!')
+      terminal.print('Hello, there!');
+
+
+      function ask_again(terminal){
+        var terminalChild1 = document.getElementById("ter_message");
+        console.log(terminalChild1);
+        terminalChild1.parentNode.removeChild(terminalChild1);
+        var terminalChild2 = document.getElementById("ter_message");
+         terminalChild2.parentNode.removeChild(terminalChild2);
+        var terminalChild3 = document.getElementById("ter_message");
+         terminalChild3.parentNode.removeChild(terminalChild3);
+          // temrinalChild.removeChild(terminalChild.firstChild);
+        terminal.input('Enter one of the following commands: resume, more-to-come ', function (input) {
+            // terminal.print('>');
+              if (input == "resume"){
+                alert("taking to resume page");
+                //shows resume in nice format =) 
+                window.location = "resume_page.html";
+              }
+              else{
+                terminal.print("I don't know this command !!!!");
+                ask_again(terminal);
+              }
+        });
+      }
+
+
         //welcome message
         terminal.input('Whats your name?', function (input) {
         terminal.print('Welcome, ' + input);
         terminal.sleep(1000, function () {
           terminal.print(' ');
-          terminal.input('Enter one of the following commands: ', function (input) {
+          terminal.input('Enter one of the following commands: resume, more-to-come ', function (input) {
             // terminal.print('>');
               if (input == "resume"){
                 alert("taking to resume page");
+                //shows resume in nice format =) 
                 window.location = "resume_page.html";
               }
               else{
-                terminal.print("uhhhh idk what you mean D=");
+                terminal.print("I don't know this command !!!!");
+                ask_again(terminal);
 
               }
           })

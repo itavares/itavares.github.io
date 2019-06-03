@@ -107,6 +107,8 @@ var Terminal = (function () {
 
 		this.print = function (message) {
 			var newLine = document.createElement('div')
+			//Ighor's Change
+			newLine.setAttribute("id", "ter_message");
 			newLine.textContent = message
 			this._output.appendChild(newLine)
 		}
