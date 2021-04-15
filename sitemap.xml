@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/project/</loc>
+    <loc>localhost/project/</loc>
     <lastmod>2021-04-13T11:39:47-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/project/test/</loc>
+    <loc>localhost/project/test/</loc>
     <lastmod>2021-04-13T11:39:47-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>localhost/</loc>
     <lastmod>2021-04-13T11:39:47-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2021/04/first-post-welcome/</loc>
+    <loc>localhost/posts/2021/04/first-post-welcome/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/me/</loc>
+    <loc>localhost/tags/me/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>localhost/posts/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>localhost/tags/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>localhost/about/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>localhost/blog/</loc>
   </url><url>
-    <loc>//localhost:1313/series/</loc>
+    <loc>localhost/series/</loc>
   </url>
 </urlset>
