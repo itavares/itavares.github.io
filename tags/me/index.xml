@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>me on Welcome To My 172.0.0.1</title>
-    <link>localhost/tags/me/</link>
+    <link>ighortavares.com/tags/me/</link>
     <description>Recent content in me on Welcome To My 172.0.0.1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 13 Apr 2021 10:02:50 -0500</lastBuildDate><atom:link href="localhost/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 10:02:50 -0500</lastBuildDate><atom:link href="ighortavares.com/tags/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post - Welcome</title>
-      <link>localhost/posts/2021/04/first-post-welcome/</link>
+      <link>ighortavares.com/posts/2021/04/first-post-welcome/</link>
       <pubDate>Tue, 13 Apr 2021 10:02:50 -0500</pubDate>
       
-      <guid>localhost/posts/2021/04/first-post-welcome/</guid>
+      <guid>ighortavares.com/posts/2021/04/first-post-welcome/</guid>
       <description>\</description>
     </item>
     
