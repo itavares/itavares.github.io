@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>ighortavares.com/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2021-04-13T11:39:47-05:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/project/test/</loc>
+    <loc>/project/test/</loc>
     <lastmod>2021-04-13T11:39:47-05:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/</loc>
+    <loc>/</loc>
     <lastmod>2021-04-13T11:39:47-05:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/posts/2021/04/first-post-welcome/</loc>
+    <loc>/posts/2021/04/first-post-welcome/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/tags/me/</loc>
+    <loc>/tags/me/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-04-13T10:02:50-05:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>ighortavares.com/blog/</loc>
+    <loc>/blog/</loc>
   </url><url>
-    <loc>ighortavares.com/series/</loc>
+    <loc>/series/</loc>
   </url>
 </urlset>
