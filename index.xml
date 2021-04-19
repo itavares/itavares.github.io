@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome To My 172.0.0.1</title>
-    <link>/</link>
+    <link>https://ighortavares.com/</link>
     <description>Recent content on Welcome To My 172.0.0.1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 13 Apr 2021 11:39:47 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 11:39:47 -0500</lastBuildDate><atom:link href="https://ighortavares.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>/project/test/</link>
+      <link>https://ighortavares.com/project/test/</link>
       <pubDate>Tue, 13 Apr 2021 11:39:47 -0500</pubDate>
       
-      <guid>/project/test/</guid>
+      <guid>https://ighortavares.com/project/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First Post - Welcome</title>
-      <link>/posts/2021/04/first-post-welcome/</link>
+      <link>https://ighortavares.com/posts/2021/04/first-post-welcome/</link>
       <pubDate>Tue, 13 Apr 2021 10:02:50 -0500</pubDate>
       
-      <guid>/posts/2021/04/first-post-welcome/</guid>
+      <guid>https://ighortavares.com/posts/2021/04/first-post-welcome/</guid>
       <description>\</description>
     </item>
     
     <item>
       <title>&gt;$ man Ighor Tavares</title>
-      <link>/about/</link>
+      <link>https://ighortavares.com/about/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://ighortavares.com/about/</guid>
       <description>aka. sumb0dy About Me I am currently a software/cybersecurity engineer at a small company called EWR Radar Systems. We work making mobile/tactical weather radars. My main job at this place is to develop new software for our radars, create new tools for production automation and peform vulnerability scans, system hardening and ensure all our systems are DoD compliance.
 Here are some more information about myself:
  B.S Computer Science M.S Cybersecurity Engineering CompTIA Security+ Certified Volunteer at ShellCon Former Head TA of System Security Class  About CTF I am a vivid CTF player.</description>
