@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome To My 172.0.0.1</title>
-    <link>https://ighortavares.com/</link>
+    <link>https://sum_b0dy.com/</link>
     <description>Recent content on Welcome To My 172.0.0.1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 23 Aug 2022 13:33:28 -0500</lastBuildDate><atom:link href="https://ighortavares.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 13:33:28 -0500</lastBuildDate><atom:link href="https://sum_b0dy.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xored</title>
-      <link>https://ighortavares.com/project/xored/</link>
+      <link>https://sum_b0dy.com/project/xored/</link>
       <pubDate>Tue, 23 Aug 2022 13:33:28 -0500</pubDate>
       
-      <guid>https://ighortavares.com/project/xored/</guid>
+      <guid>https://sum_b0dy.com/project/xored/</guid>
       <description>XORed This is a small tool I made to perform XOR operations on a binary file using Golang. Find it at my github: xored.go
 The motive to create this tool (it&amp;rsquo;s very simple honestly) happened while solving a threat hunting CTF problem where I was tasked to find the binary in a pcap file. The neat part was that the binary was &amp;ldquo;hidden.&amp;rdquo; The attacker performed an XOR operation to hide it, so to get the original binary, I would have to undo the operation.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://ighortavares.com/posts/2022/08/my-first-post/</link>
+      <link>https://sum_b0dy.com/posts/2022/08/my-first-post/</link>
       <pubDate>Sun, 21 Aug 2022 16:36:00 -0400</pubDate>
       
-      <guid>https://ighortavares.com/posts/2022/08/my-first-post/</guid>
+      <guid>https://sum_b0dy.com/posts/2022/08/my-first-post/</guid>
       <description>Hello There I am Ighor Tavares, known as sum_b0dy on twitter&amp;hellip; I have always struggled getting my own website going. I usually either give up, or I try to make it too nice, and never come back to finish it. Well, this time is a little bit different. Got my own domain, selected a framework to make my life easier (gohugo.io), and I am hosting somewhere where I don’t have to deal with it too much, since this is a static website (yay).</description>
     </item>
     
     <item>
       <title>&gt;$ man Ighor Tavares</title>
-      <link>https://ighortavares.com/about/</link>
+      <link>https://sum_b0dy.com/about/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ighortavares.com/about/</guid>
+      <guid>https://sum_b0dy.com/about/</guid>
       <description>aka. sum_b0dy About Me I am currently a software/cybersecurity engineer at a small company called EWR Radar Systems. We work making mobile/tactical weather radars. My main job at this place is to develop new software for our radars, create new tools for production automation and perform vulnerability scans, system hardening and ensure all our systems are DoD compliance. The list is long, but I do a little bit of everything right now.</description>
     </item>
     

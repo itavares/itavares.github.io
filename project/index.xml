@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Welcome To My 172.0.0.1</title>
-    <link>https://ighortavares.com/project/</link>
+    <link>https://sum_b0dy.com/project/</link>
     <description>Recent content in Projects on Welcome To My 172.0.0.1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 23 Aug 2022 13:33:28 -0500</lastBuildDate><atom:link href="https://ighortavares.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 13:33:28 -0500</lastBuildDate><atom:link href="https://sum_b0dy.com/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xored</title>
-      <link>https://ighortavares.com/project/xored/</link>
+      <link>https://sum_b0dy.com/project/xored/</link>
       <pubDate>Tue, 23 Aug 2022 13:33:28 -0500</pubDate>
       
-      <guid>https://ighortavares.com/project/xored/</guid>
+      <guid>https://sum_b0dy.com/project/xored/</guid>
       <description>XORed This is a small tool I made to perform XOR operations on a binary file using Golang. Find it at my github: xored.go
 The motive to create this tool (it&amp;rsquo;s very simple honestly) happened while solving a threat hunting CTF problem where I was tasked to find the binary in a pcap file. The neat part was that the binary was &amp;ldquo;hidden.&amp;rdquo; The attacker performed an XOR operation to hide it, so to get the original binary, I would have to undo the operation.</description>
     </item>
