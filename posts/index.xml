@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Welcome To My 172.0.0.1</title>
+        <link>https://ighortavares.com/posts/</link>
+        <description>Recent content in Posts on Welcome To My 172.0.0.1</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sun, 21 Aug 2022 16:36:00 -0400</lastBuildDate>
+        <atom:link href="https://ighortavares.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My First Post</title>
+            <link>https://ighortavares.com/posts/2022/08/my-first-post/</link>
+            <pubDate>Sun, 21 Aug 2022 16:36:00 -0400</pubDate>
+            
+            <guid>https://ighortavares.com/posts/2022/08/my-first-post/</guid>
+            <description>Hello There I am Ighor Tavares, known as sum_b0dy on twitter&amp;hellip; I have always struggled getting my own website going. I usually either give up, or I try to make it too nice, and never come back to finish it. Well, this time is a little bit different. Got my own domain, selected a framework to make my life easier (gohugo.io), and I am hosting somewhere where I don’t have to deal with it too much, since this is a static website (yay).</description>
+            <content type="html"><![CDATA[<h1 id="hello-there">Hello There</h1>
+<h2 id="i-am-ighor-tavares-known-as-sum_b0dy-on-twitter">I am Ighor Tavares, known as sum_b0dy on twitter&hellip;</h2>
+<p>I have always struggled getting my own website going. I usually either give up, or I try to make it too nice, and never come back to finish it. Well, this time is a little bit different. Got my own domain, selected a framework to make my life easier (<a href="gohugo.io">gohugo.io</a>), and I am hosting somewhere where I don’t have to deal with it too much, since this is a static website (yay).</p>
+<p>My plan is to mainly use this as a quick introduction to who I am (I mean, you can see that too at LinkedIn right?), and post more personal stuff. Also, tools. I don’t have many now, but I am starting to realize I make a lot of small tools, for work, CTF, and day-to-day life. So why not just share it here? Maybe someone has some use for them. I don’t know.</p>
+<p>Well, this makes it official, I guess.</p>
+<p>Cheers and Happy Hacking!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
