@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome To My 172.0.0.1</title>
+    <title>Hello There! I am Ighor.</title>
     <link>https://sumb0dy.com/</link>
-    <description>Recent content on Welcome To My 172.0.0.1</description>
+    <description>Recent content on Hello There! I am Ighor.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
@@ -28,12 +28,12 @@ The motive to create this tool (it&amp;rsquo;s very simple honestly) happened wh
     </item>
     
     <item>
-      <title>&gt;$ man Ighor Tavares</title>
+      <title>&gt;$ cat Ighor_Tavares.txt</title>
       <link>https://sumb0dy.com/about/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sumb0dy.com/about/</guid>
-      <description>aka. sum_b0dy About Me I am currently a software/cybersecurity engineer at a small company called EWR Radar Systems. We work making mobile/tactical weather radars. My main job at this place is to develop new software for our radars, create new tools for production automation and perform vulnerability scans, system hardening and ensure all our systems are DoD compliance. The list is long, but I do a little bit of everything right now.</description>
+      <description>aka. sum_b0dy About Me I am currently a software/cybersecurity engineer at a small company called EWR Radar Systems. We work making mobile/tactical weather radars. My main job at this place is to develop new software for our radars, create new tools for production automation and perform vulnerability scans, system hardening, theat modelling, and ensure all our systems are DoD compliance. The list is long, but I do a little bit of everything right now.</description>
     </item>
     
   </channel>
